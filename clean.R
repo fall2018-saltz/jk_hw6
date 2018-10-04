@@ -15,3 +15,5 @@ cleanDataFrame<- function(){
   #returning the dataframe as output
   return(dfStates)
 }
+
+dfStates<-cleanDataFrame()
