@@ -17,4 +17,4 @@ cleanDataFrame<- function(){
 }
 
 dfStates<-cleanDataFrame()
-dfStates
+clean_data<-dfStates
