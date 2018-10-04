@@ -1,2 +1,3 @@
 
-arrests<-USArrests #assigning USArrests dataframe to arrests variable
+#assigning USArrests dataframe to arrests variable
+arrests<-USArrests 
