@@ -17,3 +17,4 @@ cleanDataFrame<- function(){
 }
 
 dfStates<-cleanDataFrame()
+dfStates
