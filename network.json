@@ -52,8 +52,11 @@
             "desc": "",
             "name": "mergeArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mergedData.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:48:05",
+    "updated_at": "2018-10-04 15:48:24",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
