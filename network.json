@@ -77,10 +77,15 @@
             "name": "mergedData.csv"
         },
         {
+            "assigned_to": "jkachhadia",
             "desc": "creating histogram of population.",
-            "name": "histpop.R"
+            "name": "histpop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population_histogram.png"
         }
     ],
-    "updated_at": "2018-10-08 22:51:57",
+    "updated_at": "2018-10-08 22:58:19",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
