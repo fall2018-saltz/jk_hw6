@@ -53,6 +53,16 @@
             ],
             "source": "mergedData.csv",
             "target": "histpop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pophist",
+                    "type": "png"
+                }
+            ],
+            "source": "histpop.R",
+            "target": "population_histogram.png"
         }
     ],
     "nodes": [
@@ -86,6 +96,6 @@
             "name": "population_histogram.png"
         }
     ],
-    "updated_at": "2018-10-08 22:58:19",
+    "updated_at": "2018-10-08 22:58:31",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
