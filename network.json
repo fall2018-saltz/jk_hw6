@@ -94,8 +94,12 @@
         },
         {
             "name": "population_histogram.png"
+        },
+        {
+            "desc": "creating histogram of murder rate",
+            "name": "histmurder.R"
         }
     ],
-    "updated_at": "2018-10-08 22:58:31",
+    "updated_at": "2018-10-08 23:44:51",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
