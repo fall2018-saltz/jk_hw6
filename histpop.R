@@ -1,4 +1,3 @@
 
 library(ggplot2)
-data
-# pophist<-ggplot(data$)
+pophist<-ggplot2(data)+aes(x=stateName,y=population)geom_histogram()
