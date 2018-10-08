@@ -73,6 +73,16 @@
             ],
             "source": "mergedData.csv",
             "target": "histmurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderhist",
+                    "type": "png"
+                }
+            ],
+            "source": "histmurder.R",
+            "target": "murderrate_histogram.png"
         }
     ],
     "nodes": [
@@ -115,6 +125,6 @@
             "name": "murderrate_histogram.png"
         }
     ],
-    "updated_at": "2018-10-08 23:56:42",
+    "updated_at": "2018-10-08 23:57:00",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
