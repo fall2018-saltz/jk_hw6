@@ -63,6 +63,16 @@
             ],
             "source": "histpop.R",
             "target": "population_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "histmurder.R"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "histmurder.R"
         }
     ],
-    "updated_at": "2018-10-08 23:44:51",
+    "updated_at": "2018-10-08 23:51:57",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
