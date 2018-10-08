@@ -106,10 +106,15 @@
             "name": "population_histogram.png"
         },
         {
+            "assigned_to": "jkachhadia",
             "desc": "creating histogram of murder rate",
-            "name": "histmurder.R"
+            "name": "histmurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murderrate_histogram.png"
         }
     ],
-    "updated_at": "2018-10-08 23:51:57",
+    "updated_at": "2018-10-08 23:56:42",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
