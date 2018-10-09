@@ -103,6 +103,16 @@
             ],
             "source": "boxplot.R",
             "target": "population_boxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "Murders.R"
         }
     ],
     "nodes": [
@@ -155,6 +165,6 @@
             "name": "Murders.R"
         }
     ],
-    "updated_at": "2018-10-09 02:24:59",
+    "updated_at": "2018-10-09 02:25:11",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
