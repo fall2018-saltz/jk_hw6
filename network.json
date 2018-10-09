@@ -113,6 +113,16 @@
             ],
             "source": "mergedData.csv",
             "target": "Murders.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "Murders.R",
+            "target": "murdersPerStatebar1.png"
         }
     ],
     "nodes": [
@@ -170,6 +180,6 @@
             "name": "murdersPerStatebar1.png"
         }
     ],
-    "updated_at": "2018-10-09 03:20:28",
+    "updated_at": "2018-10-09 03:20:43",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
