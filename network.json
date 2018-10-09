@@ -229,10 +229,15 @@
             "name": "murdersPerStatebar3.png"
         },
         {
+            "assigned_to": "jkachhadia",
             "desc": "",
-            "name": "scatter.R"
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter.png"
         }
     ],
-    "updated_at": "2018-10-09 04:00:43",
+    "updated_at": "2018-10-09 04:03:34",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
