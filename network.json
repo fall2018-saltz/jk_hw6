@@ -153,6 +153,16 @@
             ],
             "source": "Murders.R",
             "target": "murdersPerStatebar3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "scatter.R"
         }
     ],
     "nodes": [
@@ -223,6 +233,6 @@
             "name": "scatter.R"
         }
     ],
-    "updated_at": "2018-10-09 04:00:31",
+    "updated_at": "2018-10-09 04:00:43",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
