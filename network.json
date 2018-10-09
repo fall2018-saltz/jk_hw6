@@ -63,26 +63,6 @@
             ],
             "source": "histpop.R",
             "target": "population_histogram.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "mergedData.csv",
-            "target": "histmurder.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "murderhist",
-                    "type": "png"
-                }
-            ],
-            "source": "histmurder.R",
-            "target": "murderrate_histogram.png"
         }
     ],
     "nodes": [
@@ -116,12 +96,6 @@
             "name": "population_histogram.png"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "creating histogram of murder rate",
-            "name": "histmurder.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "murderrate_histogram.png"
         },
         {
@@ -129,6 +103,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-09 00:22:46",
+    "updated_at": "2018-10-09 00:25:35",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
