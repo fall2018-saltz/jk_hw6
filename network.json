@@ -149,8 +149,11 @@
         },
         {
             "name": "murderrate_boxplot.png"
+        },
+        {
+            "name": "explain6.txt"
         }
     ],
-    "updated_at": "2018-10-09 00:40:13",
+    "updated_at": "2018-10-09 02:12:46",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
