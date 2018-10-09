@@ -133,6 +133,16 @@
             ],
             "source": "Murders.R",
             "target": "murdersPerStatebar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder2",
+                    "type": "png"
+                }
+            ],
+            "source": "Murders.R",
+            "target": "murdersPerStatebar2.png"
         }
     ],
     "nodes": [
@@ -196,6 +206,6 @@
             "name": "murdersPerStatebar2.png"
         }
     ],
-    "updated_at": "2018-10-09 03:53:40",
+    "updated_at": "2018-10-09 03:53:54",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
