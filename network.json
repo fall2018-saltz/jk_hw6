@@ -122,7 +122,7 @@
                 }
             ],
             "source": "Murders.R",
-            "target": "murdersPerStatebar1.png"
+            "target": "murdersPerStatebar.png"
         },
         {
             "ports": [
@@ -187,12 +187,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "murdersPerStatebar1.png"
+            "name": "murdersPerStatebar.png"
         },
         {
             "name": "murdersPerStatebar2.png"
         }
     ],
-    "updated_at": "2018-10-09 03:52:49",
+    "updated_at": "2018-10-09 03:52:57",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
