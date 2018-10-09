@@ -217,8 +217,12 @@
         },
         {
             "name": "murdersPerStatebar3.png"
+        },
+        {
+            "desc": "",
+            "name": "scatter.R"
         }
     ],
-    "updated_at": "2018-10-09 03:57:17",
+    "updated_at": "2018-10-09 04:00:31",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
