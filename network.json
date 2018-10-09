@@ -161,10 +161,15 @@
             "name": "murderrate_boxplot.png"
         },
         {
+            "assigned_to": "jkachhadia",
             "desc": "",
-            "name": "Murders.R"
+            "name": "Murders.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murdersPerStatebar1.png"
         }
     ],
-    "updated_at": "2018-10-09 02:25:11",
+    "updated_at": "2018-10-09 03:20:28",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
