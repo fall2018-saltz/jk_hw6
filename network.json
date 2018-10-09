@@ -123,8 +123,11 @@
             "desc": "creating histogram of population.",
             "name": "histogram.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "population_boxplot.png"
         }
     ],
-    "updated_at": "2018-10-09 00:37:03",
+    "updated_at": "2018-10-09 00:38:09",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
