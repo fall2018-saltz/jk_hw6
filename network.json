@@ -73,6 +73,16 @@
             ],
             "source": "histogram.R",
             "target": "murderrate_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -103,8 +113,10 @@
             "name": "murderrate_histogram.png"
         },
         {
+            "assigned_to": "jkachhadia",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "jkachhadia",
@@ -113,6 +125,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 00:27:56",
+    "updated_at": "2018-10-09 00:37:03",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
