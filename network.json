@@ -52,7 +52,7 @@
                 }
             ],
             "source": "mergedData.csv",
-            "target": "histpop.R"
+            "target": "histogram.R"
         },
         {
             "ports": [
@@ -61,7 +61,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histpop.R",
+            "source": "histogram.R",
             "target": "population_histogram.png"
         },
         {
@@ -71,7 +71,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histpop.R",
+            "source": "histogram.R",
             "target": "murderrate_histogram.png"
         }
     ],
@@ -97,12 +97,6 @@
             "name": "mergedData.csv"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "creating histogram of population.",
-            "name": "histpop.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "population_histogram.png"
         },
         {
@@ -111,8 +105,14 @@
         {
             "desc": "",
             "name": "boxplot.R"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "creating histogram of population.",
+            "name": "histogram.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 00:27:16",
+    "updated_at": "2018-10-09 00:27:56",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
