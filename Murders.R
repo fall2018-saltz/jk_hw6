@@ -1,3 +1,3 @@
 
-library(ggplot)
+library(ggplot2)
 data
