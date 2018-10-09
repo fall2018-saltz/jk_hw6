@@ -87,22 +87,22 @@
         {
             "ports": [
                 {
-                    "output": "popbox",
-                    "type": "png"
-                }
-            ],
-            "source": "boxplot.R",
-            "target": "population_boxplot.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "boxmurder",
                     "type": "png"
                 }
             ],
             "source": "boxplot.R",
             "target": "murderrate_boxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxpop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "population_boxplot.png"
         }
     ],
     "nodes": [
@@ -151,6 +151,6 @@
             "name": "murderrate_boxplot.png"
         }
     ],
-    "updated_at": "2018-10-09 00:39:34",
+    "updated_at": "2018-10-09 00:40:13",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
