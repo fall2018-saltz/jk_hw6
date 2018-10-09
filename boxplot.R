@@ -1,6 +1,7 @@
 
 #loading the ggplot2 library
 library(ggplot2)
+#creating the box plot for population
 boxpop<-ggplot(data)+aes(y=population)+geom_boxplot()
 boxmurder<-ggplot(data)+aes(y=Murder)+geom_boxplot()
 
