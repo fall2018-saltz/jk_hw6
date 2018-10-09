@@ -83,6 +83,16 @@
             ],
             "source": "mergedData.csv",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popbox",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "population_boxplot.png"
         }
     ],
     "nodes": [
@@ -131,6 +141,6 @@
             "name": "murderrate_boxplot.png"
         }
     ],
-    "updated_at": "2018-10-09 00:38:33",
+    "updated_at": "2018-10-09 00:38:50",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
