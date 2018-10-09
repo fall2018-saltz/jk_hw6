@@ -1,3 +1,3 @@
 
 library(ggplot2)
-data
+data$murdersPerState<-data$Murder*data$population/1000000
