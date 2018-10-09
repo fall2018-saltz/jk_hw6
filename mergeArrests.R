@@ -1,6 +1,7 @@
 
 #assigning USArrests dataframe to arrests variable
 arrests<-USArrests 
+which(arrests$stateName=="District of Columbia")
 arrests<-arrests[-c(which(arrests$stateName=="District of Columbia")),]
 arrests
 rownames(data)<-as.vector(data[,'stateName'])
