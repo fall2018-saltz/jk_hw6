@@ -127,7 +127,7 @@
         {
             "ports": [
                 {
-                    "output": "barmurder2",
+                    "output": "barmurder1",
                     "type": "png"
                 }
             ],
@@ -193,6 +193,6 @@
             "name": "murdersPerStatebar2.png"
         }
     ],
-    "updated_at": "2018-10-09 03:23:46",
+    "updated_at": "2018-10-09 03:52:49",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
