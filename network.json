@@ -63,6 +63,16 @@
             ],
             "source": "histpop.R",
             "target": "population_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderhist",
+                    "type": "png"
+                }
+            ],
+            "source": "histpop.R",
+            "target": "murderrate_histogram.png"
         }
     ],
     "nodes": [
@@ -103,6 +113,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-09 00:25:35",
+    "updated_at": "2018-10-09 00:27:16",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
