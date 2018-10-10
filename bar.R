@@ -1,4 +1,5 @@
 
+#loading ggplo2 library
 library(ggplot2)
 data$murdersPerState<-data$Murder*data$population/100000
 barmurder<-ggplot(data)+aes(x=stateName,y=murdersPerState)+geom_col()+ggtitle("Total Murders")
