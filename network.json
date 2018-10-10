@@ -1,0 +1,253 @@
+{
+    "collaborators": [
+        "jkachhadia"
+    ],
+    "created_at": "2018-10-04 15:15:14",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "mergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeArrests.R",
+            "target": "mergedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pophist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "population_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderhist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "murderrate_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "murderrate_boxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxpop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "population_boxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "bar.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder",
+                    "type": "png"
+                }
+            ],
+            "source": "bar.R",
+            "target": "murdersPerStatebar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder1",
+                    "type": "png"
+                }
+            ],
+            "source": "bar.R",
+            "target": "murdersPerStatebar1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder2",
+                    "type": "png"
+                }
+            ],
+            "source": "bar.R",
+            "target": "murdersPerStatebar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurder3",
+                    "type": "png"
+                }
+            ],
+            "source": "bar.R",
+            "target": "murdersPerStatebar3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "scatter.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "",
+            "name": "mergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mergedData.csv"
+        },
+        {
+            "name": "population_histogram.png"
+        },
+        {
+            "name": "murderrate_histogram.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "creating histogram of population.",
+            "name": "histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population_boxplot.png"
+        },
+        {
+            "name": "murderrate_boxplot.png"
+        },
+        {
+            "name": "murdersPerStatebar.png"
+        },
+        {
+            "name": "murdersPerStatebar1.png"
+        },
+        {
+            "name": "murdersPerStatebar2.png"
+        },
+        {
+            "name": "murdersPerStatebar3.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "",
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "",
+            "name": "bar.R",
+            "task_status": "in progress"
+        }
+    ],
+    "updated_at": "2018-10-10 21:24:00",
+    "url": "https://github.com/fall2018-saltz/jk_hw6"
+}
