@@ -112,7 +112,7 @@
                 }
             ],
             "source": "mergedData.csv",
-            "target": "Murders.R"
+            "target": "bar.R"
         },
         {
             "ports": [
@@ -121,7 +121,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Murders.R",
+            "source": "bar.R",
             "target": "murdersPerStatebar.png"
         },
         {
@@ -131,7 +131,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Murders.R",
+            "source": "bar.R",
             "target": "murdersPerStatebar1.png"
         },
         {
@@ -141,7 +141,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Murders.R",
+            "source": "bar.R",
             "target": "murdersPerStatebar2.png"
         },
         {
@@ -151,7 +151,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Murders.R",
+            "source": "bar.R",
             "target": "murdersPerStatebar3.png"
         },
         {
@@ -221,12 +221,6 @@
             "name": "murderrate_boxplot.png"
         },
         {
-            "assigned_to": "jkachhadia",
-            "desc": "",
-            "name": "Murders.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "murdersPerStatebar.png"
         },
         {
@@ -246,8 +240,14 @@
         },
         {
             "name": "scatter.png"
+        },
+        {
+            "assigned_to": "jkachhadia",
+            "desc": "",
+            "name": "bar.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 04:03:47",
+    "updated_at": "2018-10-10 21:24:00",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
