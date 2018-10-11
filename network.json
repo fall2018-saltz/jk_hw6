@@ -173,6 +173,36 @@
             ],
             "source": "scatter.R",
             "target": "scatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Rapehist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "rape_hisogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Assaulthist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "assault_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Urbanpophist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "urbanpop_histogram.png"
         }
     ],
     "nodes": [
@@ -246,8 +276,17 @@
             "desc": "",
             "name": "bar.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "rape_hisogram.png"
+        },
+        {
+            "name": "assault_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 21:24:00",
+    "updated_at": "2018-10-11 02:02:57",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
