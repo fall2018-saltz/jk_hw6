@@ -193,6 +193,16 @@
             ],
             "source": "histogram.R",
             "target": "assault_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Urbanpophist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "urbanpop_histogram.png"
         }
     ],
     "nodes": [
@@ -277,6 +287,6 @@
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 02:02:29",
+    "updated_at": "2018-10-11 02:02:57",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
