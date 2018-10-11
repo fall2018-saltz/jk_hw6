@@ -12,7 +12,6 @@ barmurder1<-barmurder+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
 #Generating a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 x<-data[order(data$Murder),]
-
 barmurder2<-ggplot(x)+aes(x=stateName,y=murdersPerState)+geom_col()+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
 #Generating a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
