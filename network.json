@@ -173,6 +173,16 @@
             ],
             "source": "scatter.R",
             "target": "scatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Rapehist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "rape_hisogram.png"
         }
     ],
     "nodes": [
@@ -257,6 +267,6 @@
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 02:01:54",
+    "updated_at": "2018-10-11 02:02:11",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
