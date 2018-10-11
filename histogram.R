@@ -3,6 +3,13 @@
 library(ggplot2)
 #creating the histogram of population of various states where theme element is used to adjust the labels
 pophist<-ggplot(data)+aes(x=stateName,y=population)+geom_histogram(stat="identity")+theme(axis.text.x=element_text(angle = 90, hjust = 1))
+
+#creating histograms of other remaining 3 variables
+Assaulthist<-ggplot(data)+aes(x=stateName,y=Assault)+geom_histogram(stat="identity")+theme(axis.text.x=element_text(angle = 90, hjust = 1))
+Rapehist<-ggplot(data)+aes(x=stateName,y=Rape)+geom_histogram(stat="identity")+theme(axis.text.x=element_text(angle = 90, hjust = 1))
+Urbanpophist<-ggplot(data)+aes(x=stateName,y=Urbanpop)+geom_histogram(stat="identity")+theme(axis.text.x=element_text(angle = 90, hjust = 1))
+
+
 #creating the murder rate histogram of various states where theme element is used to adjust the labels
 murderhist<-ggplot(data)+aes(x=stateName,y=Murder)+geom_histogram(stat="identity")+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
