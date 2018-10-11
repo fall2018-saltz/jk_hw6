@@ -252,8 +252,11 @@
         },
         {
             "name": "assault_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 02:01:04",
+    "updated_at": "2018-10-11 02:01:54",
     "url": "https://github.com/fall2018-saltz/jk_hw6"
 }
