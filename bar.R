@@ -11,7 +11,8 @@ barmurder<-ggplot(data)+aes(x=stateName,y=murdersPerState)+geom_col()+ggtitle("T
 barmurder1<-barmurder+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
 #Generating a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
-x<-transform(data,stateName=reorder(stateName,Murder,decreasing=T))
+#
+sorting in terms of x<-transform(data,stateName=reorder(stateName,Murder,decreasing=T))
 
 barmurder2<-ggplot(x)+aes(x=stateName,y=murdersPerState)+geom_col()+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
