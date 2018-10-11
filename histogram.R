@@ -9,4 +9,3 @@ murderhist<-ggplot(data)+aes(x=stateName,y=Murder)+geom_histogram(stat="identity
 #seeing both histograms and boxplots, box plot makes more sense of the data as we could clearly see the outliers in the population.
 # If we want to see the individual data of each state then histograms make more sense as, you can see individual values
 
-#creating histograms of other remaining 5 variables
