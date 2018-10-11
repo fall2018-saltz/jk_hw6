@@ -8,11 +8,11 @@ pophist<-ggplot(data)+aes(population)+geom_histogram(binwidth=1500000)
 Assaulthist<-ggplot(data)+aes(Assault)+geom_histogram(binwidth=20)
 Rapehist<-ggplot(data)+aes(Rape)+geom_histogram(binwidth=3)
 Urbanpophist<-ggplot(data)+aes(UrbanPop)+geom_histogram(binwidth=5)
+#binwidth is adjusted to make more sense out of the data in histograms
 
-
-#creating the murder rate histogram of various states where theme element is used to adjust the labels
+#creating the murder rate histogram of various states  with bin width
 murderhist<-ggplot(data)+aes(Murder)+geom_histogram(binwidth=2)+theme(axis.text.x=element_text(angle = 90, hjust = 1))
 
-#seeing both histograms and boxplots, box plot makes more sense of the data as we could clearly see the outliers in the population.
-# If we want to see the individual data of each state then histograms make more sense as, you can see individual values
+#boxplots are used when the variation in data is less and histograms are used when variation in data is more.
+#In our case, variation is more so, using histogram makes more sense.
 
